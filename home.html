@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java FUNdamentals</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/a4c7cde502.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!-- landing page -->
+    <div class="container flex-column flex-center">
+        <div id="home-page" class="start">
+                <h1>Java FUNdamentals Quiz</h1>
+                <ul>You have 1 minute to finish the quiz</ul>
+                <ul>Every incorrect answer will take 10 seconds off the clock!</ul>
+                <ul>Try and get a highscore! Good Luck!</ul>
+                <button id="start-btn" class="start-btn btn">START<i class="fa-brands fa-java"></i></button>
+         </div>
+<!-- hidden until the Start Button is clicked to prompt questions -->
+         <div id="quiz-container" class="hide">
+            <!-- <div id="time" class="start"> -->
+                <p class="timer">Time: <span id="time"></span></p>
+                <p class="final-score">0</p>
+                <h1 id="question-prompt">question</h1>
+                <p class="choices" id="choices">choices</p>
+            </div>
+        </div>   
+    
+<!-- hidden until quiz is over and records scores-->
+         <div id="score-container" class="hide">
+            <h1>YOUR SCORE!</h1>
+            <div class="score">
+                <p class="final-score">0</p>
+            </div>
+            <div id="high-score">
+                <p> Enter Name: <input type="text" id="name"</p>
+                <button id="sub-btn" class="btn" type="submit" onclick="saveScore(event)">SUBMIT SCORE<i class="fa-solid fa-thumbs-up"></i></button>
+            </div>
+         </div>
+    </div>
+    <script src="questions.js"></script>
+    <script src="quiz.js"></script>       
+</body>
+
+</html>
