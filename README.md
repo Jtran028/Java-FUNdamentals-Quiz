@@ -32,4 +32,4 @@ Unfortunately I wasn't able to complete the project. Will revisit in the future 
 
 ## Repository and Deployment Link
 * https://github.com/Jtran028/Java-FUNdamentals-Quiz
-*
+* https://jtran028.github.io/Java-FUNdamentals-Quiz/
