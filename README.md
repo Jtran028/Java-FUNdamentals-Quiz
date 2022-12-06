@@ -6,13 +6,13 @@ At some point in your journey to become a full-stack web developer, you’ll lik
 To help familiarize you with these tests and allow you to use the skills covered in this module, this Challenge invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface.
 
 ## User Story
-
+```
 AS A coding boot camp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
-
+```
 ## Acceptance Criteria
-
+```
 GIVEN I am taking a code quiz
 WHEN I click the start button
 THEN a timer starts and I am presented with a question
@@ -24,6 +24,12 @@ WHEN all questions are answered or the timer reaches 0
 THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
-
-# Developr Notes
+```
+## Screenshots
+![](./img/quizdemo.gif)
+## Developer Notes
 Unfortunately I wasn't able to complete the project. Will revisit in the future to complete the project.
+
+## Repository and Deployment Link
+* https://github.com/Jtran028/Java-FUNdamentals-Quiz
+*
